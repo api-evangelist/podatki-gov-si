@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://podatki.gov.si/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/podatki-gov-si-domain-security.yml
   - type: Website
     url: https://podatki.gov.si
   - type: Documentation
